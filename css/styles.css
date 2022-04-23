@@ -96,23 +96,18 @@ ul {
 
 .header-contact a {
   color: var(--primary-text-color);
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 .header-contact a:hover,
 .header-contact a:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
-.contact-icon-mail {
+.contact-icon {
   margin-right: 10px;
-  display: inline-block;
-  width: 20px;
-}
-.contact-icon-phone {
-  margin-right: 10px;
-  display: inline-block;
-  width: 20px;
 }
 
 /* Main */
