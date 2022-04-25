@@ -193,7 +193,9 @@ ul {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-  padding: 25px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .section-title {
   font-weight: 700;
@@ -230,9 +232,7 @@ ul {
 .team-card-name + .team-card-name {
   margin-left: 30px;
 }
-.team img {
-  margin-bottom: 30px;
-}
+
 .team h3 {
   font-weight: 500;
   font-size: 16px;
@@ -246,6 +246,9 @@ ul {
   line-height: 1.19;
   text-align: center;
   margin-bottom: 16px;
+}
+.team-table {
+  padding: 30px 32px;
 }
 .team-item-list {
   padding: 0;
@@ -404,11 +407,14 @@ ul {
 }
 .footer-flex {
   display: flex;
+  align-items: baseline;
 }
 .footer-right {
-  margin-left: 70px;
   width: 206px;
   height: 80px;
+}
+.footer-left {
+  margin-right: 70px;
 }
 .footer-right h2 {
   font-weight: 700;
